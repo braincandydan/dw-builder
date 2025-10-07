@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "cd site && yarn build",
-  "devCommand": "cd site && yarn dev",
-  "installCommand": "yarn install && turbo run build --filter=next-commerce^...",
-  "framework": "nextjs",
+  "buildCommand": "yarn build",
+  "installCommand": "yarn install",
+  "framework": null,
   "outputDirectory": "site/.next"
 }
+
